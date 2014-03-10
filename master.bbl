@@ -1,0 +1,23 @@
+\begin{thebibliography}{1}
+
+\bibitem{emospeech}
+G.~O. Hofer, ``Emotional speech synthesis,'' Master's thesis, University of
+  Edinburgh School of Informatics, 2004.
+
+\bibitem{introhmmbased}
+J.~Yamagishi, {\em An Introduction to HMM-Based Speech Synthesis}.
+\newblock 2006.
+
+\bibitem{tuomo}
+T.~Raitio, ``Hidden markov model based finnish text-to-speech system utilizing
+  glottal inverse filtering,'' Master's thesis, Helsinki University of
+  Technology, 2008.
+
+\bibitem{analysis-hts-adaptation-junichi}
+J.~Yamagishi, T.~Kobayashi, Y.~Nakano, K.~Ogata, and J.~Isogai, ``Analysis of
+  speaker adaptation algorihms for {HMM}-based speech synthesis and a
+  constrained {SMAPLR} adaptation algorithm,'' {\em IEEE Transactions on Audio,
+  Speech and Language Processing}, 2008.
+\newblock In print.
+
+\end{thebibliography}

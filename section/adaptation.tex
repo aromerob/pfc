@@ -1,0 +1,40 @@
+\section{Adaptation}\label{badapt}
+There are several styles of adaptation which affect both the possible application and the method of implementation. Firstly adaptation can be supervised in which case accurate transcriptions are available for all the adaptation data, or unsupervised in which case the required transcriptions must be hypothesis. Secondly, adaptation can be incremental, where adaptation data becomes available in stages or batch-mode, where all of the adaptation data is available from the start.\\
+For cases where the adaptation data is limited, linear transform based schemes are currently the most effective form of adaptation. These approaches use the acoustic model parameters and require a transcription of the adaptation data.
+\subsection{Maximum Likelihood linear Regression}\label{mllr}
+In maximum likelihood linear regression (MLLR), a set of linear transformations are used to map and existing model set such that the likelihood of the adaptation data is maximized.\\
+There are two main variants of MLLR:
+\begin{itemize}
+	\item Unconstrained MLLR: where separate transforms are trained for the means and variances
+	\item Constrained MLLR (CMLLR): where the transform for the mean and the variance is the same
+\end{itemize}
+CMLLR is the form of linear transform most often used for adaptive training even with little amount of adaptation data(\ref{articulo cmllr}). For both forms of linear transformation, the matrix transformation may be full, block-diagonal, or diagonal.
+\subsection{Parameter Estimation}\label{pe}
+The linear transforms seen in section \ref{mllr}  require transcription of the adaptation data in order to estimate the model parameters. For supervised adaptation, the transcription is known and may be directly used without further consideration. When used in unsupervised mode, the transcription must be derived from the recognizer output............YO CREO QUE ESTO NO LO VOY A PONER PORQUE ES MAS PARA RECONOCER Y NO TENGO MUCHA INFO
+\subsection{Regression Class Trees}\label{rcs}
+A powerful feature of linear transform-based adaptation is that it allows all the acoustic models to be adapted using a variable number of transforms. When the amount of data is limited, a global transform can be shared across all Gaussians in the system, but as the amount of data increases, the HMM state components can be grouped into regression classes with each class having its own transform.\\
+\begin{figure}[!htb]
+	\begin{center}
+	\includegraphics[width=1\textwidth]{img/RC2.png}
+	\end{center}
+	\caption{\label{rcimg}Regression class tree example}
+\end{figure}
+The number of transforms to use for any specific set of adaptation data can be determined automatically using regression class trees as illustrated in figure \ref{rcimg}. Each node represents a regression class (a set of Gaussian components that will share a single transform). Then, for the given set of adaptation data, the tree is descended and the most specific set of nodes is selected for which for which there is enough data.
+\subsection{Maximum a Posteriori}\label{map}
+Rather than hypothesizing a form of transformation to represent the differences between speakers, it is possible to use standard statistical approaches to obtain robust parameter estimates. One common approach is maximum a posteriori (MAP) adaptation where in addition to the adaptation data, a prior over the model parameters is used to estimate the model parameters.\\
+MAP adaptation effectively interpolates the original prior parameter values with those that would be obtained from the adaptation data alone. As the amount of adaptation data increases, the parameters tend asymptotically to the adaptation domain.
+\subsection{Adaptive Training}\label{at}
+In the case of speaker independent, the training data includes large number of speakers. Hence, acoustic model trained directly on this set "waste" a large number of parameters encoding the variability between speakers rather than the variability between spoken words which is the true aim.One approach to this is to use adaptation transforms during training. This is known as speaker adaptive training (SAT).
+\begin{figure} [!htb]
+	\begin{center}
+	\includegraphics[width=1\textwidth]{img/sat2.png}
+	\end{center}
+	\caption{\label{satimg}Speaker adaptive training example}
+\end{figure}
+As example of this is illustrated in figure \ref{satimg}. For each training speaker a transform is estimated and then the canonical model is estimated given all of these speaker transforms. The complexity of this method depend of the nature of the adaptation transform that can be split in three groups:
+\begin{itemize}
+	\item Model independent: These schemes do not make explicit use of any model information
+	\item Feature transformation: These transforms also act on the features but are derived, normally using ML estimation, using the current estimate of the model set
+	\item Model transformation: The model parameters, mean and possibly variances, are transformed.
+\end{itemize}
+The most common version of adaptive training uses CMLLR, since it is the simplest to implement.
