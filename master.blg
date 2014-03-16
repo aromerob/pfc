@@ -1,5 +1,13 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: master.aux
 A level-1 auxiliary file: section/introduction.aux
+White space in argument---line 4 of file section/introduction.aux
+ : \citation{jaime
+ :                 speaking styles}
+I'm skipping whatever remains of this command
+White space in argument---line 8 of file section/introduction.aux
+ : \citation{jaime
+ :                 transplante}
+I'm skipping whatever remains of this command
 A level-1 auxiliary file: section/history.aux
 A level-1 auxiliary file: section/emotion.aux
 A level-1 auxiliary file: section/hmm.aux
@@ -10,6 +18,8 @@ A level-1 auxiliary file: section/conclusion.aux
 The style file: ieeetr.bst
 A level-1 auxiliary file: section/apendixA.aux
 Database file #1: section/references.bib
+Warning--I didn't find a database entry for "emociones"
 Warning--I didn't find a database entry for "htkbook"
 Warning--empty publisher in introhmmbased
-(There were 2 warnings)
+Warning--empty publisher in flanagan
+(There were 2 error messages)

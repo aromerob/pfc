@@ -1,0 +1,59 @@
+This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
+The top-level auxiliary file: master.aux
+A level-1 auxiliary file: section/introduction.aux
+A level-1 auxiliary file: section/history.aux
+A level-1 auxiliary file: section/emotion.aux
+A level-1 auxiliary file: section/hmm.aux
+A level-1 auxiliary file: section/adaptation.aux
+A level-1 auxiliary file: section/experiments.aux
+A level-1 auxiliary file: section/results.aux
+A level-1 auxiliary file: section/conclusion.aux
+The style file: ieeetr.bst
+A level-1 auxiliary file: section/apendixA.aux
+Database file #1: section/references.bib
+Warning--I didn't find a database entry for "emociones"
+Warning--I didn't find a database entry for "htkbook"
+Warning--empty publisher in introhmmbased
+Warning--empty publisher in flanagan
+You've used 12 entries,
+            1876 wiz_defined-function locations,
+            546 strings with 5296 characters,
+and the built_in function-call counts, 1778 in all, are:
+= -- 156
+> -- 81
+< -- 0
++ -- 34
+- -- 22
+* -- 93
+:= -- 293
+add.period$ -- 17
+call.type$ -- 12
+change.case$ -- 9
+chr.to.int$ -- 0
+cite$ -- 14
+duplicate$ -- 88
+empty$ -- 207
+format.name$ -- 22
+if$ -- 423
+int.to.chr$ -- 0
+int.to.str$ -- 12
+missing$ -- 10
+newline$ -- 46
+num.names$ -- 12
+pop$ -- 63
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 23
+stack$ -- 0
+substring$ -- 0
+swap$ -- 6
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 2
+while$ -- 12
+width$ -- 14
+write$ -- 106
+(There were 4 warnings)

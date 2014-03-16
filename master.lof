@@ -1,18 +1,18 @@
-\contentsline {figure}{\numberline {1}{\ignorespaces Kempelen Acoustic-Mechanical Speech Machine \ref {donde saque la imagen}}}{2}{figure.1}
-\contentsline {figure}{\numberline {2}{\ignorespaces Dudley's Voder speech synthesizer \ref {de donde la saque}}}{4}{figure.2}
-\contentsline {figure}{\numberline {3}{\ignorespaces Pattern play-back machine \ref {de donde la saque}}}{5}{figure.3}
-\contentsline {figure}{\numberline {4}{\ignorespaces Typical HMM structures \ref {junichi hts intro}}}{8}{figure.4}
-\contentsline {figure}{\numberline {5}{\ignorespaces TTS overview \ref {articulo an hmm-based...}}}{10}{figure.5}
-\contentsline {figure}{\numberline {6}{\ignorespaces Example of decision-tree based context clustering for some features \ref {articulo an hmm-based...}}}{11}{figure.6}
-\contentsline {figure}{\numberline {7}{\ignorespaces HMM-based generation process of speech parameters \ref {Tuomo}}}{12}{figure.7}
-\contentsline {figure}{\numberline {8}{\ignorespaces IAIF algorithm block diagram \ref {Tuomo}}}{14}{figure.8}
-\contentsline {figure}{\numberline {9}{\ignorespaces Synthesis block diagram for GlotHMM vocoder \ref {Tuomo}}}{15}{figure.9}
-\contentsline {figure}{\numberline {10}{\ignorespaces Synthesis block diagram for STRAIGHT vocoder \ref {Tuomo}}}{17}{figure.10}
-\contentsline {figure}{\numberline {11}{\ignorespaces Regression class tree example}}{19}{figure.11}
-\contentsline {figure}{\numberline {12}{\ignorespaces Speaker adaptive training example}}{20}{figure.12}
-\contentsline {figure}{\numberline {13}{\ignorespaces Spectrogram for the angry emotion of the original file (above) and the synthetic file after resynthesis (below)}}{22}{figure.13}
-\contentsline {figure}{\numberline {14}{\ignorespaces Spectrogram for the sadness emotion of the original file (above) and the synthetic file after resynthesis (below)}}{23}{figure.14}
-\contentsline {figure}{\numberline {15}{\ignorespaces ES representation for the emotional strength}}{29}{figure.15}
-\contentsline {figure}{\numberline {16}{\ignorespaces ES boxplot representation for the emotional strength}}{29}{figure.16}
-\contentsline {figure}{\numberline {17}{\ignorespaces MOS representation for the speech quality}}{30}{figure.17}
-\contentsline {figure}{\numberline {18}{\ignorespaces MOS boxplot representation for the speech quality}}{30}{figure.18}
+\contentsline {figure}{\numberline {1}{\ignorespaces Kempelen Acoustic-Mechanical Speech Machine \cite {history-images}}}{2}{figure.1}
+\contentsline {figure}{\numberline {2}{\ignorespaces Dudley's Voder speech synthesizer \cite {history-images}}}{4}{figure.2}
+\contentsline {figure}{\numberline {3}{\ignorespaces Pattern play-back machine \cite {history-images}}}{5}{figure.3}
+\contentsline {figure}{\numberline {4}{\ignorespaces Typical HMM structures \cite {introhmmbased}}}{9}{figure.4}
+\contentsline {figure}{\numberline {5}{\ignorespaces TTS overview \cite {Tokuda02anhmm-based}}}{10}{figure.5}
+\contentsline {figure}{\numberline {6}{\ignorespaces Example of decision-tree based context clustering for some features \cite {Tokuda02anhmm-based}}}{12}{figure.6}
+\contentsline {figure}{\numberline {7}{\ignorespaces HMM-based generation process of speech parameters \cite {tuomo}}}{13}{figure.7}
+\contentsline {figure}{\numberline {8}{\ignorespaces IAIF algorithm block diagram \cite {tuomo}}}{15}{figure.8}
+\contentsline {figure}{\numberline {9}{\ignorespaces Synthesis block diagram for GlotHMM vocoder \cite {tuomo}}}{16}{figure.9}
+\contentsline {figure}{\numberline {10}{\ignorespaces Synthesis block diagram for STRAIGHT vocoder \cite {tuomo}}}{18}{figure.10}
+\contentsline {figure}{\numberline {11}{\ignorespaces Regression class tree example \cite {hmmasr}}}{20}{figure.11}
+\contentsline {figure}{\numberline {12}{\ignorespaces Speaker adaptive training example \cite {hmmasr}}}{21}{figure.12}
+\contentsline {figure}{\numberline {13}{\ignorespaces Spectrogram for the angry emotion of the original file (above) and the synthetic file after resynthesis (below)}}{23}{figure.13}
+\contentsline {figure}{\numberline {14}{\ignorespaces Spectrogram for the sadness emotion of the original file (above) and the synthetic file after resynthesis (below)}}{24}{figure.14}
+\contentsline {figure}{\numberline {15}{\ignorespaces ES representation for the emotional strength}}{30}{figure.15}
+\contentsline {figure}{\numberline {16}{\ignorespaces ES boxplot representation for the emotional strength}}{30}{figure.16}
+\contentsline {figure}{\numberline {17}{\ignorespaces MOS representation for the speech quality}}{31}{figure.17}
+\contentsline {figure}{\numberline {18}{\ignorespaces MOS boxplot representation for the speech quality}}{31}{figure.18}

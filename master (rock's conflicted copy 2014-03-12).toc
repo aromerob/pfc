@@ -7,16 +7,17 @@
 \contentsline {section}{\numberline {3}Emotion Analysis}{6}{section.3}
 \contentsline {section}{\numberline {4}HMM}{9}{section.4}
 \contentsline {section}{\numberline {5}HMM-Based Speech Synthesis}{10}{section.5}
-\contentsline {subsection}{\numberline {5.1}Training Part}{11}{subsection.5.1}
-\contentsline {subsection}{\numberline {5.2}Synthesis Part}{11}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.1}Training Part}{10}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Synthesis Part}{12}{subsection.5.2}
 \contentsline {section}{\numberline {6}Vocoders}{14}{section.6}
 \contentsline {subsection}{\numberline {6.1}GlotHMM}{14}{subsection.6.1}
 \contentsline {subsection}{\numberline {6.2}STRAIGHT}{17}{subsection.6.2}
 \contentsline {section}{\numberline {7}Adaptation}{19}{section.7}
 \contentsline {subsection}{\numberline {7.1}Maximum Likelihood linear Regression}{19}{subsection.7.1}
-\contentsline {subsection}{\numberline {7.2}Regression Class Trees}{19}{subsection.7.2}
-\contentsline {subsection}{\numberline {7.3}Maximum a Posteriori}{20}{subsection.7.3}
-\contentsline {subsection}{\numberline {7.4}Adaptive Training}{20}{subsection.7.4}
+\contentsline {subsection}{\numberline {7.2}Parameter Estimation}{19}{subsection.7.2}
+\contentsline {subsection}{\numberline {7.3}Regression Class Trees}{19}{subsection.7.3}
+\contentsline {subsection}{\numberline {7.4}Maximum a Posteriori}{20}{subsection.7.4}
+\contentsline {subsection}{\numberline {7.5}Adaptive Training}{20}{subsection.7.5}
 \contentsline {section}{\numberline {8}Experiments}{22}{section.8}
 \contentsline {subsection}{\numberline {8.1}Depenent models}{22}{subsection.8.1}
 \contentsline {subsubsection}{\numberline {8.1.1}Configuration File}{22}{subsubsection.8.1.1}
@@ -42,5 +43,4 @@
 \contentsline {subsection}{\numberline {A.2}F0 examples}{35}{subsection.A.2}
 \contentsline {subsection}{\numberline {A.3}Latin Square}{35}{subsection.A.3}
 \contentsline {subsection}{\numberline {A.4}GlottHMM Configuration File Example}{35}{subsection.A.4}
-\contentsline {subsection}{\numberline {A.5}Test Details}{35}{subsection.A.5}
 \contentsline {section}{Appendices}{}{appendix}

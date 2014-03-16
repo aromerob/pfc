@@ -1,17 +1,61 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
-\bibitem{emospeech}
-G.~O. Hofer, ``Emotional speech synthesis,'' Master's thesis, University of
-  Edinburgh School of Informatics, 2004.
+\bibitem{history-images}
+M.~University, ``A brief historical introduction to speech synthesis: A
+  macquarie perspective.''
+\newblock last accesed 11-03-2014.
 
 \bibitem{introhmmbased}
 J.~Yamagishi, {\em An Introduction to HMM-Based Speech Synthesis}.
 \newblock 2006.
 
+\bibitem{Tokuda02anhmm-based}
+K.~Tokuda, H.~Zen, and A.~W. Black, ``An hmm-based speech synthesis system
+  applied to english,'' 2002.
+
 \bibitem{tuomo}
 T.~Raitio, ``Hidden markov model based finnish text-to-speech system utilizing
   glottal inverse filtering,'' Master's thesis, Helsinki University of
   Technology, 2008.
+
+\bibitem{hmmasr}
+M.~Gales and S.~Young, ``The application of hidden markov models in speech
+  recognition,'' {\em Foundations and Trends® in Signal Processing}, vol.~1,
+  no.~3, pp.~195--304, 2008.
+
+\bibitem{emospeech}
+G.~O. Hofer, ``Emotional speech synthesis,'' Master's thesis, University of
+  Edinburgh School of Informatics, 2004.
+
+\bibitem{Lorenzo-Trueba2013}
+J.~Lorenzo-Trueba, R.~Barra-Chicote, J.~Yamagishi, O.~Watts, and J.~M. Montero,
+  ``Towards speaking style transplantation in speech synthesis,'' in {\em Proc.
+  8th ISCA Speech Synthesis Workshop}, 2013.
+
+\bibitem{manu}
+M.~Airaksinen, ``Analysis/synthesis comparison of vocoders utilized in
+  statistical parametric speech synthesis,'' Master's thesis, Aalto University
+  School of Electrical Engineering, 2012.
+
+\bibitem{flanagan}
+J.~L. Flanagan, {\em Speech Analysis, Synthesis and Perception}.
+\newblock second~ed., 1972.
+
+\bibitem{darwin}
+C.~Darwin, {\em The expression of the emotions in man and animals}.
+\newblock New York D. Appleton and Co., 1897.
+
+\bibitem{goleman2006emotional}
+D.~Goleman, {\em Emotional Intelligence}.
+\newblock A Bantam book, Bantam Books, 2006.
+
+\bibitem{trabajo-emo}
+A.~C. Aarón~Blanco, ``Inteligencia emocional.''
+
+\bibitem{yoshimura1998duration}
+T.~Yoshimura, K.~Tokuda, T.~Masuko, T.~Kobayashi, and T.~Kitamura, ``Duration
+  modeling for hmm-based speech synthesis.,'' in {\em ICSLP}, vol.~98,
+  pp.~29--31, 1998.
 
 \bibitem{analysis-hts-adaptation-junichi}
 J.~Yamagishi, T.~Kobayashi, Y.~Nakano, K.~Ogata, and J.~Isogai, ``Analysis of

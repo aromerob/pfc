@@ -6,8 +6,8 @@ For the different methods and genres the amount of data have been different.
 \subsubsection{Male voice}
 For the different techniques the amount of data for the male voice is:
 \begin{itemize}
-	\item Dependent model (section \ref{dpm}): the same amount of data has been used for each emotion. The total amount of data per emotion is 489 utterances (around one hour of recording speech)
-	\item Adaptation model (section \ref{adapt}): in this case the amount of data used for the training is all the data of the dependent models, which is 2445 utterances, and then all the data for each model to perform the adaptation.
+	\item Dependent model (section \ref{dpm}): the same amount of data has been used for each emotion. The total amount of data per emotion is 489 sentences (around one hour of recording speech)
+	\item Adaptation model (section \ref{adapt}): in this case the amount of data used for the training is all the data of the dependent models, which is 2445 sentences, and then all the data for each model to perform the adaptation.
 \end{itemize}
 Before synthesizing the test labels one of the models created has to be chosen as the better, for that reason a validation test has been done with 15 sentences of other speaker. Once the model has been chosen twenty sentences from the Albayzin contest have been used for the subjective test.
 \subsubsection{Female voice}
@@ -71,6 +71,9 @@ The results for the dependent model for the male voice are showed in figures \re
 	\end{center}
 	\caption{\label{joa2-MOS-1}MOS boxplot representation for the speech quality}
 \end{figure}
+
+Faltan resultados del parecido de la voz al original, si estan pero en formato tabla en la parte SIM  y MOS es Mean Opinion Score
+
 \subsubsection{Adaptation Model Results}\label{madaptresults}
 \subsection{Female Voices Results}\label{femaleres}
 Here the results for the female voices and the two different methods will be showed.\\

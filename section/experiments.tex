@@ -31,7 +31,7 @@ A configuration file has been created for each emotion and for some of them the 
 Looking into the different configuration files for the different emotions, some little changes can be seen between them. This changes are in the f0 estimation of the analysis, were part the emotion is located (see \ref{emotana}). The rest of the configuration file is the same for all the emotions and it can be also find the parameters that can be extracted in the analysis (can be true or false for all of them) or the ones that will be used in the synthesis. An example of a configuration file can be found in section \ref{anexo}.\\
 In this f0 estimation some values can be tuned as:
 \begin{itemize}
-\item F0\_MIN: Minumum fundamental frequency
+\item F0\_MIN: Minimum fundamental frequency
 \item F0\_MAX: Maximum fundamental frequency
 \item VOICING\_THRESHOLD: Voicing threshold with respect to gain in the low-frequency band, so the speech frames under this value will be classified as unvoiced
 \item ZCR\_THRESHOLD: Zero-crossings threshold. Speech segments that have more zero crossings than the threshold value are classified as unvoiced
@@ -48,6 +48,7 @@ In this configuration file the path where the features are going to be extracted
 	\item flow: source LSFs
 	\item hnr\_i: harmonic to noise ratio with bands
 \end{itemize}
+Looking into this file or in the training script it can be seen that the dimension (or size) of this streams is 31 for the lsf (10 for lsf, 10 for the delta coefficients, 10 for the delta-delta coefficients and 1 for the gain), 10 for the flow, 5 for the hnr and 1 for f0.
 \subsubsection{Feature Extraction}\label{fea}
 The next step is the feature extraction of the audio files that are going to be used in the training. The features that are going to be extracted can be selected in the GlotHMM configuration file.\\
 The streams that contains the features will be used in the training for building the voice model, so the features have to represent the voice.
@@ -65,7 +66,7 @@ The adaptation consist in transfer the capabilities of one sepeaker to an averag
 So basically the steps that has to be followed are the same that with the previous method (section \ref{dpm}), with the difference that this time an average voice model has been build with all the emotions to have a more robust model.\\
 In order to do this all the extracted features (cmp files) for the previous method will be placed in the same folder, and the same goes for the time alignment labels, and the SAT (section \ref{at}) has to be set to one in the training script, so there will be only one model (the average).\\
 So at this point is where the method differs of the previous one. Now is where the adaptation take place. So an adaptation to this model has been done with every emotion which generates a new model for each emotion.
-According with what is told in section \ref{badapt} the type of adaptation is supervised and batch-mode, so different adaptation techniques could have been applied here like MLLR, CMLLR, MAP (see \ref{badapt}) or a combination of some of them like CMLLR + MAP. Also other adaptation techniques as CSMAPLR or SMAPLR \cite{analysis-hts-adaptation-junichi} could have been used, but the one that has been used in this Thesis is the CMLLR + MAP adaptation. For the CMLLR 256 regression tree nodes have been used.
+According with what is told in section \ref{badapt} the type of adaptation is supervised and batch-mode, so different adaptation techniques could have been applied here like MLLR, CMLLR, MAP (see \ref{badapt}) or a combination of some of them like CMLLR + MAP, this is called CSMAPLR (also SMAPLR exist) \cite{analysis-hts-adaptation-junichi}. The adaptation technique that has been used in this Thesis is the CSMAPLR adaptation. For the CMLLR 256 regression tree nodes have been used.
 Using MAP after CMLLR improve the average log probability per frame a little bit which leads in a better adaptation. Previously to this MAP technique two iterations of CMLLR have been done to get better results.\\
 The CMLLR adaptation can be tuned a little bit with some thresholds which can change the depth of the adaptation, so the emotion level can be tuned with this threshold. Also changing the regression tree nodes can affect the adaptation. As the adaptation has been done using a good amount of data the regression trees can be big and a better node will be selected.\\
 For the adaptation all the data of the training for one emotion have been used to replicate the experiment that were done with STRAIGHT, but a big amount of data is not required for a good adaptation.
